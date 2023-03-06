@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Portfolio 1</title>
+    <!-- cdn bootstrap link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .right_cont {
+        background-color: rgba(22, 21, 21, 0.729);
+      }
+      .img_cont {
+        width:506px;
+        margin-left: -12px;
+      }
+      /* underline  */
+      .und1 {
+        position: relative;
+      }
+      .und1::after {
+        content: "";
+        position: absolute;
+        display: block;
+        margin-top: 20px;
+        left: 1;
+        bottom: 3;
+        width: 102%;
+        height: 2px;
+        background-color: rgb(229, 185, 28);
+      }
+      .hi {
+        height: 40px;
+        background-color: rgb(229, 185, 28);
+      }
+      .clr {
+        background-color: rgba(19, 18, 18, 0.827);
+        margin-left: -12px;
+        width: 380px;
+        text-indent: 1em;
+      }
+      /* left side  */
+      .title {
+        height: 200px;
+        width: 1011px;
+        padding-top: 50px;
+        padding-left: 80px;
+        letter-spacing: 2px;
+        word-spacing: 3px;
+        margin-left: -12px;
+      }
+      .about_me {
+        padding-left: 80px;
+      }
+      /* underline  */
+      .und2 {
+        position: relative;
+      }
+      .und2::after {
+        content: "";
+        position: absolute;
+        display: block;
+        margin-top: 19px;
+        left: 1;
+        bottom: 3;
+        width: 93%;
+        height: 2px;
+        background-color: black;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <!-- Portfolio start  -->
+    <!-- fluid container start -->
+    <div class="container-fluid">
+      <!-- row start  -->
+      <div class="row">
+        <!-- right content start  -->
+        <div class="col-md-4 text-white right_cont">
+          <!-- profile image  -->
+
+          <img
+            class="img_cont"
+            src="https://source.unsplash.com/random/400x500"
+            alt="profile img"
+          />
+
+          <!-- info div start  -->
+          <div class="info mt-5 ms-5">
+            <h3 class="und1">EDUCATION</h3>
+            <!-- info txt start  -->
+            <div class="info_txt ms-4 mt-5 mb-5">
+              <h4>ENTER YOUR MAJOR</h4>
+              <p
+                >name of your university <br />
+                2004-3992</p
+              >
+              <br />
+              <h4>ENTER YOUR MAJOR</h4>
+              <p
+                >name of your university <br />
+                2004-3992</p
+              >
+            </div>
+            <!-- info txt end  -->
+          </div>
+          <!-- info end  -->
+
+          <!-- info div start  -->
+          <div class="info mt-5 ms-5">
+            <h3 class="und1">REFERENCE</h3>
+            <!-- info txt start  -->
+            <div class="info_txt ms-4 mt-5 mb-5">
+              <h4>SARA TAYLOR</h4>
+              <p
+                >Web Developer | Company name <br />
+                2004-3992</p
+              >
+              <br />
+              <h4>MICKEL ADDRESON</h4>
+              <p
+                >Web Developer | Company name <br />
+                2004-3992</p
+              >
+            </div>
+            <!-- info txt end  -->
+          </div>
+          <!-- info end  -->
+
+          <!-- contact section start  -->
+          <div class="row">
+            <div class="col-3 hi"></div>
+            <div class="col-9">
+              <h4 class="clr">Phone</h4> <p>+000 123 4456 89</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 hi"></div>
+            <div class="col-9">
+              <h4 class="clr">Email</h4> <p>uremail@gmail.com</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 hi"></div>
+            <div class="col-9">
+              <h4 class="clr">Website</h4> <p>urwebsiteurl.com</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-3 hi"></div>
+            <div class="col-9">
+              <h4 class="clr">Address</h4>
+              <p
+                >your streat address <br />
+                ss streat city / zip code -839</p
+              >
+            </div>
+          </div>
+          <!-- contact section end  -->
+        </div>
+        <!-- right content end  -->
+
+        <!-- left content start  -->
+        <div class="col-md-8 mt-5">
+          <div class="title bg-warning mt-5">
+            <h2><b>KAREN</b> RICHARDS</h2>
+            <h4 class="pt-2">PROFESSIONAL TITLE</h4>
+          </div>
+          <!-- about me section  -->
+          <div class="about_me mt-5">
+            <h3 class="und2">ABOUT ME </h3> <br />
+            <p
+              >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore
+              quae nulla nihil mollitia facere <br> quia laborum sapiente aperiam
+              esse molestiae molestias eum, eius temporibus minus! Lorem, ipsum dolor <br> sit amet consectetur adipisicing elit. Explicabo porro non quae vero.</p
+            >
+          </div>
+          <!-- about me end  -->
+          <!-- work exp  -->
+          <div class="work_exp mt-5 about_me">
+            <h3 class="und2 mb-5">WORK EXPERIENCE</h3>
+            <div class="row mt-2 justify-content-evenly">
+              <div class="col-md-3">2012-2014</div>
+              <div class="col-md-7"
+                >job position here <br />company name/city /country
+              >
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                vero, tempora aut sapiente deleniti ipsam ad quis iste numquam
+                inventore, dignissimos totam molestias dicta quaerat!</p
+              >
+              </div
+            </div>
+            <div class="row mt-2 justify-content-evenly">
+              <div class="col-md-3">2012-2014</div>
+              <div class="col-md-7"
+                >job position here <br />company name/city /country
+              >
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                vero, tempora aut sapiente deleniti ipsam ad quis iste numquam
+                inventore, dignissimos totam molestias dicta quaerat!</p
+              >
+              </div
+            </div>
+            <div class="row mt-2 justify-content-evenly">
+              <div class="col-md-3">2012-2014</div>
+              <div class="col-md-7"
+                >job position here <br />company name/city /country
+              >
+              <p
+                >Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
+                vero, tempora aut sapiente deleniti ipsam ad quis iste numquam
+                inventore, dignissimos totam molestias dicta quaerat!</p
+              >
+              </div
+            </div>
+          </div>
+          <!-- work exp end  -->
+
+          <!-- skill section  -->
+          <div class="skill">
+            <div class="row mt-5 about_me justify-content-end">
+                <h3 class="und2 mb-5">SOFTWARE SKILL</h3>
+                <div class="col-md-4">Adode Photoshop</div>
+                <div class="col-md-4">Microsoft word</div>
+            </div>
+            <div class="row about_me justify-content-end">
+                <div class="col-md-4"><div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 70%"></div>
+                  </div></div>
+                <div class="col-md-4"><div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 30%"></div>
+                  </div></div>
+            </div>
+
+            <div class="row mt-5 about_me justify-content-end">
+                <div class="col-md-4">Adode Photoshop</div>
+                <div class="col-md-4">Microsoft word</div>
+            </div>
+            <div class="row about_me justify-content-end">
+                <div class="col-md-4"><div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 90%"></div>
+                  </div></div>
+                <div class="col-md-4"><div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 60%"></div>
+                  </div></div>
+            </div>
+            <div class="row mt-5 about_me justify-content-end">
+                <div class="col-md-4">Adode Photoshop</div>
+                <div class="col-md-4">Microsoft word</div>
+            </div>
+
+            <!-- progress bar  -->
+            <div class="row about_me justify-content-end">
+                <div class="col-md-4"><div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 100%"></div>
+                  </div></div>
+                <div class="col-md-4"><div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar" style="width: 100%"></div>
+                  </div></div>
+            </div>
+
+            
+          </div>
+          <!-- skill section end  -->
+          
+        </div>
+        <!-- left content end  -->
+      </div>
+      <!-- row end  -->
+    </div>
+    <!-- fluid contaoner end  -->
+    <!-- cdn bootstrap js link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
